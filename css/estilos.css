@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+header {
+    background-image: url(../img/portada.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+	width: 200px;
+	object-fit: cover;
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    margin: 0 30px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.Titulos {
+    display: flex;
+    width: 100%;
+    height: 480px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.Titulos p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+hr{
+    width: 500px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-top: 20px;
+}
+
+.Titulos a {
+    background: #25d366;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    padding: 10px 60px;
+    border-radius: 20px;
+    transition: 0.1s;
+    margin-top: 20px;
+}
+
+.Titulos a:hover {
+    background: #F9A825 ;
+}
+
+/* Seccion de servicios */
+#services .services {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#services .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#services .service-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
