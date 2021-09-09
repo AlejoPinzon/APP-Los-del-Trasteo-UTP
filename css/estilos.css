@@ -116,3 +116,68 @@ hr{
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
+footer{
+    width: 100%;
+    background: url(../img/fondo4.jpg);
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+    padding: 40px;
+
+}
+.Colum1{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.Colum1 img{
+    width: 280px;
+    height: 150px;
+}
+
+.Colum2{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Colum2 h3{
+    font-size: 40px;
+    text-align: center;
+}
+.Colum2 p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Colum3{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.Colum3 h3{
+    font-size: 40px;
+    text-align: center;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+
+}
+.row img{
+    width: 30px;
+    height: 30px;    
+}
+.row label{
+    margin-top: 8px;
+    margin-left:20px;
+
+}
