@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat';
 }
@@ -59,19 +58,19 @@ nav{
 nav ul{
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 nav ul li{
     
-    margin: 0px 20px;
+    margin: 0px 40px;
     list-style: none;
 }
 
 nav ul li a{
     color: #FFFFFF;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 nav ul li a:hover {
@@ -138,7 +137,7 @@ nav ul li a:hover {
     padding: 10px 40px;
     margin-top: 40px;
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     border: none;
     color: white;
