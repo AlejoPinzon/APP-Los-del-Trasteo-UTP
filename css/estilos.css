@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat';
 }
@@ -16,9 +15,9 @@ li{
 
 header{
     width: 100%;
-    height: 90px;
+    height: 80px;
     font-family: 'Montserrat';
-    font-weight: bold;
+    font-weight: 600;
     position: fixed;
     top: 0;
     right: 0;
@@ -27,10 +26,10 @@ header{
 }
 
 .menu_header{
-    max-width: 1800px;
-    height: 100%;  
+    max-width: 1600px;
+    height: 100%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin: auto;
     padding: 0px 20px;
 }
@@ -59,13 +58,13 @@ nav{
 nav ul{
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 nav ul li{
-    
-    margin: 0px 20px;
+
+    margin: 0px 40px;
     list-style: none;
 }
 
@@ -83,7 +82,7 @@ nav ul li a:hover {
     padding: 10px 30px;
     color: white;
     border-radius: 15px;
-    box-shadow: 10px 10px 0px -5px #20202049;    
+    box-shadow: 10px 10px 0px -5px #20202049;
     cursor: pointer;
     transition: box-shadow 500ms;
 }
@@ -138,7 +137,7 @@ nav ul li a:hover {
     padding: 10px 40px;
     margin-top: 40px;
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 700;
     border: none;
     color: white;
@@ -191,8 +190,7 @@ nav ul li a:hover {
     margin: 4px 8px 0;
     text-align: justify;
     background-color: #547cbc;
- align-items: center;
-     
+    align-items: center;
 }
 
 .service-content{
@@ -200,4 +198,6 @@ nav ul li a:hover {
 
 }
 
-
+.service-content img{
+    width: 200px;
+}
