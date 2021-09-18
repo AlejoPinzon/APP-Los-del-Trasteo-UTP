@@ -1,18 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=no">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <!--MONSERRAT------------------------------>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+
 <body>
-    <section id="news">
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+        <link rel="shortcut icon" href="img/favicon.png" />
+        <title>Los del Trasteo &bull; Mudanzas Faciles</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="menu_header">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Logotipo">
+                </div>
+                <div class="content_nav">
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#header">Conocenos <i class="fas fa-caret-down"></i></a>
+                                <div class="menu-conocenos">
+                                    <ul>
+                                    <li><a href="#Team">Nosotros</a></li>
+                                    <li><a href="#News">Noticias</a></li>
+                                    <li><a href="#Blog">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#services">Servicios</a></li>
+                            <li><a href="Login.html" class="inicio-sesion">Vinculate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+    
+        <div class="portada-header">
+            <div class="container_portada">
+                <div class="Textos">
+                    <h1>Múdate sin</h1>
+                    <h1> Complicaciones</h1>
+                    <p>Déjanos el trabajo pesado, tenemos el servicio indicado a tus necesidades estés donde estés.</p>
+                    <input type="button" value="Trasteate Ya!">
+                </div>
+
+            </div>
+        </div>    
+
+    <!-- Seccion de Servicios -->
+    <section id="services">
+        <div class="services container">
+        </div>
+    </section>
+    <!-- Fnal de seccion Servicios -->
+
+        <!-- Seccion de Noticias -->
+     <section id="news">
         <div class="noticias-cabecera">
             <h3>Noticias</h3>
             <span>Enterate de nuestras últimas novedades</span>
@@ -54,6 +102,79 @@
             <div class="noticias-box">
                 <div class="noticias-img">
                     <img src="img/noticias-2.png" alt="Noticias">
+    <!-- Fnal de seccion Noticias -->
+
+    <!-- Seccion de nuestro equipo -->
+    <section id="Team">
+        <div class="Team container">
+            <p class="section-text">Equipo</p>
+            <div class="col-5">
+
+                    <div class="service-content">
+                        <img src="img/veronica.png" alt="">
+
+
+                        <h2>
+                            Verónica Martínez
+                        </h2>
+                        <p class="service-text memebers">
+                        Mi actividad favorita es jugar baloncesto. También me gusta leer y pasar tiempo con mi familia.
+                        Estudié en Wichita, Kansas, en el colegio Life Prep Academy. Realicé mi bachillerato allí gracias a una beca que me otorgaron para jugar baloncesto. Realicé mis estudios universitarios en Kansas y soy especialista de nube y agente comercial en una empresa de tecnología.
+                        </p>
+                    </div>
+                </div>
+            <div class="col-5">
+
+                    <div class="service-content">
+                      <img src="img/alejo.png" alt="">
+
+                        <h2>
+                            Alejandro Pinzón
+                        </h2>
+                        <p class="service-text memebers">
+                            Soy un ingeniero informático bogotano, apasionado por el Hardware, diseño y el cine.
+                        </p>
+                    </div>
+                </div>
+            <div class="col-5">
+
+                    <div class="service-content">
+                      <img src="img/pepe.png" alt="">
+
+                        <h2>
+                            Miguel
+                        </h2>
+                        <p class="service-text memebers">
+                            Soy Miguel Aponte, profesional en ingeniería mecatrónica del Instituto Técnico Central la Salle, en mis espacios libres me gusta salir a rodar en moto, jugar póker y ver películas.
+                        </p>
+                    </div>
+                </div>
+            <div class="col-5">
+
+                    <div class="service-content">
+                      <img src="img/Diana.png" alt="">
+
+                        <h2>
+                            Diana Bohórquez
+                        </h2>
+                        <p class="service-text memebers">
+                            Soy profesional en Ciencia de la Información y Bibliotecología, me llevo bien con la creatividad y el diseño, la gestión de proyectos y me intereso por la educación mediada por la tecnología.
+
+                        </p>
+                    </div>
+                </div>
+            <div class="col-5">
+
+                    <div class="service-content">
+                     <img src="img/jonathan.png" alt="">
+
+                        <h2>
+                            Jonathan Nieto
+                        </h2>
+                        <p class="service-text memebers">
+                            Me gustaría pasar los días viendo el sol caer, adoro la sonrisa de mi bebé. A veces debo reconocer que me comprometo más de la cuenta y preferiría que el día tuviera 48 horas. Soy administrador financiero egresado de la universidad pública y un apasionado por la tecnología.
+                        </p>
+                    </div>
                 </div>
                 <div class="noticias-texto">
                     <span>09/14/21</span>
