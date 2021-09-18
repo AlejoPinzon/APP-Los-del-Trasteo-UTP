@@ -200,4 +200,5 @@ nav ul li a:hover {
 
 .service-content img{
     width: 200px;
+    justify-content: space-between;
 }
