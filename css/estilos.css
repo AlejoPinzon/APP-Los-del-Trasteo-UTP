@@ -186,6 +186,18 @@ nav ul li:hover .menu-conocenos ul li{
     background: #f95725 ;
 }
 
+.btn-wsp{
+    position:fixed;
+    bottom:55px;
+    right:30px;
+    z-index:100;
+}
+
+.btn-wsp img{
+    width: 70px;
+    top: 0%;
+}
+
 /*
 #services .services {
 	flex-direction: column;
