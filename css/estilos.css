@@ -66,6 +66,8 @@ nav ul{
     list-style: none;
     display: flex;
 
+    margin: 0px 40px;
+    list-style: none;
 }
 
 nav ul li{
@@ -85,6 +87,15 @@ nav ul li a:hover {
     color: #01B3A7;
 }
 
+.inicio-sesion{
+    background: #f95725;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
 
 .menu-conocenos{
     display: none;
