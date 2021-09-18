@@ -197,3 +197,7 @@ nav ul li a:hover {
     padding: 1em 1em 1em 3em;
 
 }
+
+.service-content img{
+    width: 200px;
+}
