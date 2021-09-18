@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monserrat;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: monserrat;
+
+}
+
+#news{
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    background-color: rgba(112, 163, 210, 1);
+    
+}
+
+
+.noticias-cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.noticias-cabecera span{
+    color:white;
+    font-weight: 400;
+    text-decoration: overline;
+    
+}
+.noticias-cabecera h3{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+.noticias-container{
+    width: 100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+    background-color: rgba(112, 163, 210, 1);
+}
+
+.noticias-box{
+    width: 40%;
+    background-color: #98affc;
+    border: 2px solid white;
+    margin: 30px;
+    display: inline-block;
+}
+
+.noticias-img{
+    width: 100%;
+    height: auto;
+}
+
+.noticias-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.noticias-texto{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.noticias-texto span{
+    color:white;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+
+}
+
+.noticias-texto .titulo-noticias{
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #272727;
+}
+
+.noticias-texto .titulo-noticias:hover{
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.noticias-texto p{
+    color: #020000;
+    font: size 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+
+}
+
+.noticias-texto a{
+    color: #8b2121;
+    font-weight: 550;
+}
+
+.noticias-texto a:hover{
+    color: #ffff;
+    transition: all ease 0.3s;
+}
+
+@media(max-width:1250px){
+    .noticias-box{
+        width:300px;
+
+    }
+}
+
+@media(max-width:1100px){
+    .noticias-box{
+        width: 70%;
+    }
+}
+
+@media(max-width:550px){
+    .noticias-box{
+        margin:20px 10px;
+        width: 100%;
+
+    }
+    #news{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+.content{
+    background: rgb(92, 118, 204);
+    padding: 20px;
+    align-items: center;
+
+}
+
+.post-title{
+    width: auto;
+    align-items: center;
+}
+
+.header{
+    background: #8d95a3;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;}
+
+.menu_header{
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+    background-color: #bb86fc;
+}
+
+.logo img{
+    width: 155px;
+    top: 0%;
+}
+
+.content_nav{
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li{
+
+    padding: 10px 30px;
+    position: relative;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: #01B3A7;
+}
+
+.menu-conocenos{
+    display: none;
+}
+
+nav ul li:hover .menu-conocenos {
+
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: #01B3A7;
+    border-radius: 10px;
+    box-shadow: -5px 0px 5px 0px #20202049;
+}
+
+nav ul li:hover .menu-conocenos ul {
+    display:block;
+    margin: 5px;
+    align-items: center;
+}
+
+nav ul li:hover .menu-conocenos ul li{
+    width: 100px;
+    padding: 10px;
+}
+
+.inicio-sesion{
+    background: #f95725;
+    padding: 10px 30px;
+    color: rgb(5, 5, 5);
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.inicio-sesion:hover {
+    background: #25d366 ;
+}
+
+footer{
+    width: 100%;
+    background: url(../sitioimg/fondo4.jpg);
+    color:rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+    padding: 10px;
+
+}
+.Colum1{
+    max-width: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.Colum1 img{
+    width: 280px;
+    height: 150px;
+}
+
+.Colum2{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Colum2 h3{
+    font-size: 40px;
+    text-align: center;
+}
+.Colum2 p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Colum3{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.Colum3 h3{
+    font-size: 40px;
+    text-align: center;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+
+}
+.row img{
+    width: 20px;
+    height: 20px;    
+}
+.row label{
+    margin-top: 8px;
+    margin-left:20px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h4,h5{
+    font-weight: 100;
+}
+
+.title-page{
+    text-align: center;
+
+}
+
+hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.content-container{
+    display: grid;
+    grid-template-areas:
+    'left-content right-content' ;
+    width: 60%;
+    margin: auto;
+    grid-gap: 50px;
+    text-align:left ;
+}
+
+.right-content img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2% ;
+}
+
+.featured-article{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.featured-article img{
+    width: 400px;
+    height: 300px;
+}
